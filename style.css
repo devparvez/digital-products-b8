@@ -36,6 +36,9 @@
     height: 100vh;
     background-image: url("./images/background.png"), linear-gradient(45deg,#000,#463a3a);
     color:#fff;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .banner-img{
     width:300px;
@@ -60,4 +63,80 @@
 }
 .btn:hover{
     background-color: aquamarine;
+}
+/* about style */
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    height: 60vh;
+    align-items: center;
+}
+.text-center{
+    text-align: center;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+.about-title{
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.summary{
+    color:aqua;
+    margin-bottom: 15px;
+}
+/* service style */
+.box{
+    width:250px;
+    height: 300px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: #000;
+    color:white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+}
+.icon{
+    width: 70px;
+}
+.box-btn{
+    background-color: gray;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.box-title{
+    padding:10px
+}
+.box-description{
+    padding:10px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+.service-wh{
+    color:white
+}
+.service{
+    background-image: url("./images/background.png"), linear-gradient(45deg,#000,#463a3a);
+    padding:30px;
+}
+/* footer */
+footer{
+    color:white;
+    background-color: black;
+    padding: 40px;
+}
+.footer-container{
+    display: flex;
+    gap:20px;
+   
+}
+.footer-box{
+    flex: 1;
+}
+ul li{
+    list-style: none;
 }
